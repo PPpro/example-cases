@@ -24,6 +24,12 @@ cc.Class({
         }
     },
 
+    start () {
+        let video = document.getElementsByClassName('cocosVideo')[0];
+        console.log(video);
+        // video.style.zIndex = -10;
+    },
+
     play () {
         this.videoPlayer.play();
     },
